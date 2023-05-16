@@ -267,7 +267,7 @@ ORDER BY
 LIMIT 5;
 ```
 
-
+![blah blah blah](C:\Users\tajah\Downloads\Video Game Sales Practice Case Study\images\image8.png)
 
 
 
