@@ -82,6 +82,8 @@ FROM
 *Answer: North America bought the most video games total*
 
 
+ ![question_1](https://github.com/codewars/discord-bot/assets/122945929/6844904b-153f-4bab-a93b-8b8b1bf27f1f)
+
 
 
 ***2. What are the 5 most popular genres in each listed region (North America, Europe, Japan)?***
@@ -101,6 +103,7 @@ ORDER BY
   na_genre_sales DESC
 LIMIT 5;
 ```
+![question_2_na](https://github.com/codewars/discord-bot/assets/122945929/d4ab2081-31b3-4a9b-aa20-f147197dd702)
 
 
 
@@ -117,6 +120,7 @@ ORDER BY
   eu_genre_sales DESC
 LIMIT 5;
 ```
+![question_2_eu](https://github.com/codewars/discord-bot/assets/122945929/fd385a74-cd3b-41ae-a7c8-e39ad92b53b6)
 
 
 
@@ -137,8 +141,9 @@ ORDER BY
   jp_genre_sales DESC
 LIMIT 5;
 ```
+![question_2_jp](https://github.com/codewars/discord-bot/assets/122945929/00c474cb-d92d-431f-8851-50b60743941f)
 
-Answer| North America | Europe | Japan |
+|Answer| North America | Europe | Japan |
 |---|---|---|---|
 |1. | Shooter | Action | Role-Playing |
 |2. | Action| Sports | Platform |
@@ -170,6 +175,7 @@ WHERE
     FROM `portfolio-projects-365917.sql_case_studies.video_game_sales`
   );
   ```
+![question_3_na](https://github.com/codewars/discord-bot/assets/122945929/00e23bd0-eaa9-4b43-813c-a57444ba979c)
 
 
 
@@ -186,6 +192,7 @@ WHERE
     FROM `portfolio-projects-365917.sql_case_studies.video_game_sales`
   );
 ```  
+![question_3_eu](https://github.com/codewars/discord-bot/assets/122945929/2cf392a5-50b4-495e-99d3-f9529dc6a85d)
 
 
 
@@ -202,7 +209,7 @@ WHERE
     FROM `portfolio-projects-365917.sql_case_studies.video_game_sales`
   );
 ```  
-
+![question_3_jp](https://github.com/codewars/discord-bot/assets/122945929/f988695e-486f-4e32-a58b-815ead43f482)
 
 
 *Answer:*
@@ -229,7 +236,7 @@ WHERE
     FROM `portfolio-projects-365917.sql_case_studies.video_game_sales`
   );
 ```  
-
+![question_4_most](https://github.com/codewars/discord-bot/assets/122945929/ce4a8693-799d-42b5-a94e-9a68832c46cd)
 
 
 **Least Popular**
@@ -245,7 +252,7 @@ WHERE
     FROM `portfolio-projects-365917.sql_case_studies.video_game_sales`
   );
 ```
-
+![question_4_least](https://github.com/codewars/discord-bot/assets/122945929/08489bc9-2298-4d1d-a23d-8efac3b1079c)
 
 *Answer:*
 |Most Popular|                                 Least Popular|
@@ -266,8 +273,7 @@ ORDER BY
   SUM(global_sales) DESC
 LIMIT 5;
 ```
-
-![blah blah blah](C:\Users\tajah\Downloads\Video Game Sales Practice Case Study\images\image8.png)
+![question_5](https://github.com/codewars/discord-bot/assets/122945929/5eddaf61-7df9-4d76-8446-94888f21d4ef)
 
 
 
@@ -288,8 +294,13 @@ ORDER BY
   total_sales DESC
 LIMIT 5;
  ```
+ *Answer: Wii with 44,446,000 sales*
+ 
+ 
+![question_6](https://github.com/codewars/discord-bot/assets/122945929/7231e953-42fb-4c67-9383-6bf34e0ddf19)
 
-*Answer: Wii with 44,446,000 sales*
+
+
 
 
 ***7. Total video game sales per year?***
@@ -304,7 +315,8 @@ GROUP BY
 ORDER BY
   Year;
  ```
-  
+  ![question_7.1](https://github.com/codewars/discord-bot/assets/122945929/5c579ac3-5f74-4914-8d63-d46b67022758)
+  ![question_7.2](https://github.com/codewars/discord-bot/assets/122945929/6d4f7dd2-2534-4e41-bc70-b7270c4a2be7)
 
 
 
@@ -324,3 +336,4 @@ GROUP BY
 ORDER BY
   num_sold;
   ```
+![question_8](https://github.com/codewars/discord-bot/assets/122945929/36ec8993-4683-4fa9-b7be-647b74ce5a5b)
